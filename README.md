@@ -7,6 +7,10 @@ As a user, you have the ability to
     -filter the trails by either trail name and/or location.
     -view trails on the dynamic google maps page (clickable).
     -view and navigate the media page that displays mountain biking news.
+    
+ ## Prerequisites
+    -Before you can run this project on your machine, you have to get your own API keys from MBT project and Google Maps API. 
+    -Upon doing so just create a .env file and save the keys as variables to be accessed from the Main.js component.
 
 ## Run on your machine
     -clone the repository
