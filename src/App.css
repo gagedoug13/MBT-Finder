@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+body {
+  overflow-x: hidden;
+  background: black;
+}
+.App-link {
+  color: #09d3ac;
+}
+
+.app {
+  height: 100%;
+}
+
+.main {
+ background: black;
+ height: 100vh;
+}
+
+.main-image{
+  width: 25vw;
+  height: 25vh;
+  border: 1px black solid;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+  margin-top: 10px;
+  background: black;
+}
+
+.card {
+  height: 45vh;
+  border: 2px grey solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: white;
+}
+
+.filterPage {
+  height: 40vh;
+  width: 100vw;
+}
+
+.filterPage {
+  background: url('https://www.naturefineartphotos.com/wp-content/uploads/2018/09/4945-eastern-sierras.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+}
+
+input {
+  font-size: 2.7vh;
+  font-family: 'Roboto', serif;
+  margin-right: 0.15vw;
+  width: 32vh;
+}
+
+form {
+  display: flex;  
+  align-items: space-evenly;
+}
+
+.logo {
+  border: 2px solid black;
+}
+
+.mapPage {
+  height: 20vh;
+  margin-top: 1vh;
+  margin-left: 1.3vh;
+  margin-bottom: 50vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Bitter', serif;
+
+}
+
+button {
+  height: 4.5vh;
+  font-size: 2vh;
+  font-family: 'Roboto', serif;
+  background: lightblue;
+}
+
+.body {
+  display: flex;
+  justify-content: flex-start;
+  height: 70vh;
+  background: url('https://images.unsplash.com/photo-1545058746-b3cb62c0b05c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')80% no-repeat;
+  background-size: 65%; 
+  margin-left: -25vw;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+.header {
+  height: 100%;
+  background: url('https://www.naturefineartphotos.com/wp-content/uploads/2018/09/4945-eastern-sierras.jpg') ;
+  background-size: cover;
+  background-position-y: 28%;
+}
+
+.landingPage {
+  background: url('https://images.unsplash.com/photo-1524654458049-e36be0721fa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=200') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.userForm {
+  width: 40vh;
+  height: 50vh;
+  border: 2px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background: grey;
+}
+
+.username, .email {
+  margin-bottom: 3rem;
+}
+
+.goToHome {
+  margin-top: 2rem;
+}
+
+.formDiv {
+  height: 50vh;
+}
+
+.mediaDiv {
+  height: 100vh;
+  background-color: white
+}
+
+.navBar {
+  height: 30vh;
+}
+
+.filterPage {
+  display: flex;
+  justify-items: space-evenly;
+}
+
+.ulButtons {
+  list-style: none;
+  height: 5vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ulDiv {
+  background: black;
+  border: 2px black solid;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mediaNav {
+  background: url('https://www.naturefineartphotos.com/wp-content/uploads/2018/09/4945-eastern-sierras.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 35vh;
+  border: 3px black solid;
+}
+
+.mediaBackground {
+  height: 100vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.mediaBody {
+  height: 100vh;
+  width: 80vw;
+  background: white;
+  border: 3px black solid;
+}
+
+.mediaCard {
+  height: 50vh;
+  background: black;
+  size: 100%;
+}
+
+.card-text {
+  color: #f9f9f9;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+}
+
+.mapContainer {
+  margin-left: 2.8rem;
+}
+
+.card-img {
+  height: 100%;
+}
+
+.password {
+  margin-bottom: 3rem;
+}
+
+.username {
+  margin-top: 3rem;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 10vh;
+  font-family: 'Roboto', serif;
+  font-size: 80px;
+}
