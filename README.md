@@ -1,5 +1,6 @@
-Welcome to MBT Finder! MBT Finder is a mountain biking app that allows users to find and filter trails within 200 miles of their location.
-This app is also integrated with the Google Maps API that displays the locations of the trails and lets you dynamically navigate the map.
+Welcome to MBT Finder! MBT Finder is a mountain biking app that allows users to find and filter trails within 200 miles of their location. 
+This app is also integrated with the Google Maps API which displays the locations of the trails and allows the user to dynamically navigate the map.
+
 
 As a user, you have the ability to 
 
